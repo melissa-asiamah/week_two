@@ -1,0 +1,108 @@
+  /* BODY CSS */
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+/* HEADER CSS  */
+
+header {
+  height: 65px;
+  background-color: rgb(69, 97, 173);
+}
+h1 {
+  width: 10%;
+  height: 64px;
+  float: left;
+  margin: 0;
+}
+h1 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+margin-left: 133px;
+}
+.rightUpperContainer {
+  height: 63px;
+  margin-left: 610px;
+  float: left;
+}
+.rightUpperContainer input {
+  position: relative;
+}
+.rightUpperContainer span {
+  color: white;
+  font-size: 12px;
+}
+.rightUpperContainer form {
+  width: 20%;
+  display: inline;
+}
+
+/* MAIN CSS  */
+
+.sectionLeft {
+  height: 600px;
+  width: 51%;
+  float: left;
+  background-color: rgb(237, 240, 245);
+}
+.sectionLeft p {
+  font-size: 25px;
+  font-weight: 500;
+  width: 70%;
+  position: relative;
+  margin-top: 106px;
+  margin-bottom: 51px;
+  margin-left: 59px;
+}
+.sectionLeft ul {
+  margin-left:20px;
+}
+.sectionLeft ul li {
+  margin-bottom: 70px;
+  list-style: none;
+}
+.sectionLeft ul li a {
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.sectionRight {
+  float: left;
+  height:600px;
+  width:49%;
+  background-color: rgb(237, 240, 245 );
+}
+.sectionRightUpper {
+  margin-top: 33px;
+}
+.sectionRightUpper p {
+ margin-top: 20px;
+}
+.sectionRightUpper input {
+
+}
+.sectionRightBottom {
+  margin-top: 27px;
+}
+.lastSection {
+}
+.lastSection button {
+  color: white;
+  height: 20px;
+  width: 40%;
+  background-color: rgb(60, 164, 77);
+}
+.sectionRight a {
+  text-decoration: none;
+  color: darkblue;
+}
+.sectionRightBottom p {
+  font-size: 15px;
+}

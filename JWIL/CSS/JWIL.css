@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+header {
+  height: 500px;
+}
+h1 img {
+
+}
+nav {
+  height: 48px;
+  font-size: 1.5rem;
+}
+nav > ul {
+  text-align: center;
+  width: 158%;
+  margin-top: 26px;
+}
+nav > ul > li {
+  list-style: none;
+  width: 10%;
+  float: left;
+}
+nav > ul > li > button {
+  background-color: black;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.topMost {
+  height: 414px;
+  background-color: rgb(241, 243, 245);
+}
+h1 {
+  margin-bottom: 0;
+  margin-left: 150px;
+  margin-top: 26px;
+  width: 20%;
+}
+.topMost > img {
+  width: 39%;
+}
+.fix {
+  float: right;
+  height: 412px;
+  width: 50%;
+  margin-right: 24px;
+}
+
+.topMost p {
+  width: 100%;
+  display: inline-block;
+}
+.topMost form {
+  width: 59%;
+  display: inline-block;
+}
+.contain {
+  width: 49%;
+  margin-left: 114px;
+  float: left;
+
+}
+.topPara {
+  height: 168px;
+  width: 90%;
+  display: inline-block;
+}
+.topPara > h2 {
+  font-size: 2.5em;
+}
+.topPara p {
+  font-size: 1.7em;
+}
+.topMost form input {
+  margin-left: 4%;
+  width: 56%;
+  height: 35px;
+}
+.topMost form button {
+  margin-left: 11px;
+  width: 30%;
+  height: 29px;
+  background-color: rgb(140,156,164)
+}
+.topSecond {
+  height: 380px;
+}
+.topSecond > h2 {
+  height: 100px;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 41px;
+}
+.topSecondLeft {
+  height: 149px;
+  width: 50%;
+  float:left;
+}
+.topSecondLeft > p {
+  border-top: 2px solid red;
+  height: 100px;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 22px;
+  margin-right: 9%;
+  margin-left: 13%;
+}
+.topSecondLeft > p > span {
+  font-weight:700;
+}
+.topSecondRight {
+  height: 149px;
+  width: 49%;
+  float:left;
+}
+.topSecondRight > p {
+  border-top: 2px solid red;
+  height: 100px;
+  font-size: 1.5em;
+  text-align: left;
+  margin-right: 10%;
+  padding: 22px;
+}
+
+.topSecondRight > p > span {
+font-weight:700;
+}
+.topSecondBottomP {
+  text-align: center;
+  font-size: 1.5em;
+  color: grey;
+}
+.mid {
+  height: 564px;
+  background-color: rgb(241, 243, 245);
+}
+.mid > h2 {
+  width: 10%;
+  height: 6px;
+  font-weight: 900;
+  font-size: 1.8em;
+  padding-top: 20px;
+  margin-left: 5.5%;
+}
+.words {
+  width: 46%;
+  height: 398px;
+  float: left;
+  margin-left: 29px;
+}
+.words p {
+  font-size: 1.5em;
+  line-height: 1.7em;
+  padding-left: 44px;
+}
+.wordsRight {
+  width: 51%;
+  height: 395px;
+  padding-left: 10%;
+  float: left;
+}
+
+}
+.wordsRight img {
+  width: 58%;
+  height: 200px;
+}
+
+.bottom {
+  height: 433px;
+  width: 100%;
+  margin-top: 54px;
+  float: left;
+}
+.bottom > h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.bio {
+  border: 1px solid grey;
+  float: left;
+  width: 56%;
+  height: 331px;
+  margin-left: 331px;
+}
+.bioWords {
+  float: right;
+  width: 64%;
+  height: 331px;
+}
+.bottom  h3 {
+  font-weight: 900;
+  font-size: 1.6em;
+}
+
+.bioWords p {
+  height: 320px;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  padding-right: 6%;
+}
+.bottom img {
+  padding-left: 3%;
+  padding-top: 20px;
+}
+.last {
+  width: 100%;
+  float: left;
+}
+.lastLeft {
+  width: 50%;
+  float: left;
+  height: 192px;
+  padding: 38px;
+}
+.lastRight {
+  width: 50%;
+  float: left;
+  height: 192px;
+  padding: 17px;
+}
+.lastRight p {
+  padding-right: 5%;
+}
+.footSec {
+  height: 433px;
+  width: 100%;
+  float: left;
+  background-color: rgb(140, 156, 164);
+}
+.aboveFoot {
+  height: 90px;
+  background-color: rgb(181, 197, 209);
+}
+.aboveFoot > p {
+  display: inline-block;
+  font-size: 1.7em;
+  color: white;
+  margin-left: 8%;
+  margin-top: 26px;
+}
+.aboveFoot > form {
+  width: 43%;
+  float: right;
+}
+.aboveFoot input {
+  width: 56%;
+  height: 35px;
+  margin-top: 22px;
+}
+.aboveFoot button {
+  margin-left: 2%;
+  width: 30%;
+  height: 29px;
+  background-color: rgb(140,156,164)
+}
+.footCopyLeft {
+  border-bottom: 1px solid white;
+  height: 93px;
+  width: 50%;
+  color: white;
+  font-weight: 700;
+  font-size:1.3em;
+  padding-left: 6%;
+  padding-top: 20px;
+  display:inline;
+  float: left;
+}
+.footCopyRight {
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: 700;
+  font-size:1.3em;
+  padding-left: 25%;;
+  padding-top: 20px;
+  height: 93px;
+  width: 49%;
+  display:inline;
+  float: left;
+}
+
+.footSec ul {
+  width: 20%;
+  float: left;
+}
+.footSec span {
+  color: white;
+  font-weight:900;
+  font-size: 1.3em;
+
+}
+.footSec ul li {
+  list-style: none;
+}
+.footSec ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  list-style: none;
+}
+.diffList > li > a {
+  display: inline-block;
+}
+
+/* TABLET */
+
+@media (min-width:768px) and (max-width:1024px) {
+  .topMost > img {
+    display: none;
+  }
+  .contain {
+    width: 82%;
+    margin-left: 120px;
+  }
+  .topSecond {
+    height: 200px;
+  }
+  .wordsRight {
+    width: 50%;
+    padding-left: 6%;
+  }
+  .mid {
+    height: 643px;
+  }
+  .mid > h2 {
+  padding-top: 28px;
+  margin-left: 6.5%;
+  margin-bottom: 36px;
+  }
+  .words p {
+    padding-left: 20px;
+    padding-right: 37%;
+    width: 145%;
+  }
+  .bio {
+    width: 76%;
+    margin-left: 11%;
+  }
+  .bioWords {
+    width: 54%;
+    padding-left: 5%;
+  }
+  .bioWords p {
+    line-height: 1em;
+    height: auto;
+  }
+}
+.lastRight {
+  height: 256px;
+}
+
+/* MOBILE */
+
+@media (min-width:375px) and (max-width:812px) {
+  .topMost > img {
+    display: none;
+  }
+.contain {
+  width: auto;
+  padding-left: 32px;
+  margin-left: auto;
+}
+h1 {
+  margin-left: auto;
+  width: auto;
+}
+h1 img {
+    padding-left: -1px;
+}
+
+.topMost {
+  height: 493px;
+  }
+.topSecondLeft p {
+  border-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.topSecondRight p {
+  margin-right: auto;
+}
+.topSecondLeft {
+  width: auto;
+}
+.topSecondRight {
+  width: auto;
+}
+.mid {
+  margin-top: 38%;
+}
+.words p {
+  width: 260%;
+  padding-left: 1em;
+  padding-right: 125px;
+  line-height: 1em;
+}
+.wordsRight img {
+  display: none;
+}
+.wordsRight {
+  display: none;
+}
+.mid > h2 {
+  margin-left: 12.5%;
+  width: auto;
+}
+.bottom {
+  display: none;
+}
+.lastLeft {
+  padding-top: 0;
+  margin-top: 0;
+}
+.lastLeft p {
+  width: 121%;
+  padding-right: 3%;
+}
+.lastRight {
+  padding-top: 0;
+  margin-top: 0;
+}
+}

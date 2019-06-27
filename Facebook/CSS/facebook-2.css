@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+header {
+  background-color: rgb(69, 97, 173);
+}
+header .idk {
+display: inline;
+width: 35%;
+height: 45px;
+margin-left: 370px;
+font-size:27px;
+}
+.idk i {
+  color: white;
+}
+header input {
+  width: 44%;
+  height: 28px;
+  margin-top: 9px;
+  margin-bottom: 9px
+}
+.sectionRight {
+  float: right;
+  margin-right: 178px;
+  margin-top: 12px;
+  color: darkblue;
+  font-size: 20px;
+}
+.sectionRight i {
+  margin-right: 15px;
+}
+.leftSide {
+  border: 1px solid rgb(237, 240, 245);
+  height: 750px;
+  width: 23%;
+  float: left;
+  background-color: rgb(237, 240, 245);
+}
+.leftSide ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style: none;
+}
+.leftSide ul li {
+  margin-top:7px;
+  font-weight:900;
+
+}
+.leftSide ul >li > a {
+  list-style: none;
+  text-decoration: none;
+}
+.middleSec {
+  border: 1px solid rgb(237, 240, 245);
+  width: 50%;
+  height: 220px;
+  float: left;
+}
+.middleSec img {
+  width: 98%;
+  height: 95%;
+  object-fit: cover;
+  object-position: center;
+  margin: 5px;
+}
+.numberOne {
+  height: 75px;
+}
+.numberOne img {
+  width: 10%;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+}
+.numberOne span {
+  display: block;
+  float: right;
+  margin-right: 432px;
+}
+.numberOne a {
+  text-decoration: none;
+  font-weight:900;
+  color:darkblue;
+}
+.numberTwo {
+  height: 333px;
+}
+.numberTwo img {
+object-fit: cover;
+object-position: center;
+}
+.numberThree {
+  height: 127px;
+}
+.numberThree p {
+border-left: 4px solid lightgrey;
+padding-left: 20px;
+margin: 10px;
+}
+.special {
+  text-align: center;
+}
+.special > li {
+  display:inline-block;
+  float: left;
+  margin-right: 15px;
+  color: grey;
+}
+
+.sectionTop {
+  border: 1px solid rgb(237, 240, 245);
+  height: 236px;
+  width: 100%;
+}
+.sectionTop a {
+  text-decoration: none;
+  margin-left:8px;
+  margin-top:5px;
+}
+.sectionTop span {
+  display:inline-block;
+  border: 1px solid rgb(237, 240, 245);
+  width:50%;
+  height: 30px;
+  margin-top: 5px;
+  float:left;
+  font-weight:900;
+  font-size:13px;
+}
+.sectionTop input {
+  height: 134px;
+  margin-bottom: 10px;
+  width: 100%;
+  background: url(https://freeiconshop.com/wp-content/uploads/edd/people-solid.png) no-repeat scroll 7px 7px;
+  padding-left: 63px;
+  background-size: 50px 50px;
+  margin-bottom: 9px;
+}
+.sectionTop button {
+  float: right;
+  width: 15%;
+  height:28px;
+  margin-right: 10px;
+}
+.sectionMiddleTwo {
+  float: left;
+  border: 1px solid rgb(237, 240, 245);
+  height: 520px;
+  width: 100%;
+}
+.rightSide {
+  display: inline-block;
+  border: 1px solid rgb(237, 240, 245);
+  width: 24%;
+  height: 750px;
+  background-color: rgb(237, 240, 245);
+}
+.rightSide ul > li {
+  float: left;
+}
+.rightSideBottom {
+  border: 1px solid rgb(237, 240, 245);
+  height: 200px;
+  width: 100%;
+}
+.rightSide > ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style: none;
+}
+.rightSide > ul > li {
+  margin-top:7px;
+  font-weight:900;
+
+}
+.rightSide ul >li > a {
+  list-style: none;
+  text-decoration: none;
